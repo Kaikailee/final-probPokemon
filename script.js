@@ -49,7 +49,7 @@ $(".fightbutton").click(function() {
 
 });
 $(".fleebutton").click(function() {
-   $(".flee").fadeIn();
+    $(".flee").fadeIn();
     $(".caterpiefight").hide();
 });
 
