@@ -72,5 +72,6 @@ $(".Final").click(function() {
 });
 $(".spo").click(function() {
     $(".secret").fadeIn();
+    $("body").css("background-color", "#4f1b21");
     $(".happyfinal").hide();
 });
