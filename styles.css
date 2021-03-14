@@ -1,0 +1,53 @@
+body {
+    background-color: #ffeb87;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+}
+
+
+.pokeballimage {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonfight {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.irlb {
+    display: none;
+}
+
+.irlc {
+    display: none;
+}
+
+.irls {
+    display: none;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    font-family: 'DotGothic16', sans-serif;
+    background-color: #faf8e8;
+}
+
+.first {
+    display: none;
+}
+
+.pokebal {
+    height: 200px;
+    height: 200px;
+}
