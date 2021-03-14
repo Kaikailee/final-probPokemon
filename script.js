@@ -11,6 +11,8 @@ $(".wobbles").hide(function() {});
 $(".win").hide(function() {});
 $(".happyfinal").hide(function() {});
 $(".flee").hide(function() {});
+$(".flee").hide(function() {});
+$(".secret").hide(function() {});
 
 $(".bulb").dblclick(function() {
     $(".intro").text("Neat! Bulbasaur is a frog like grass pokemon! My personal favorite..(look at em so cute)");
@@ -67,4 +69,8 @@ $(".pokebal").hover(function() {
 $(".Final").click(function() {
     $(".happyfinal").fadeIn();
     $(".win").hide();
+});
+$(".spo").click(function() {
+    $(".secret").fadeIn();
+    $(".happyfinal").hide();
 });
