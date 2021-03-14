@@ -59,9 +59,9 @@ $(".nervc").click(function() {
 });
 
 $(".pokebal").hover(function() {
-    $(".wobbles").fadeIn().fadeOut(1000);
+    $(".wobbles").fadeIn(1000).fadeOut(1000);
     $(".caterdefeat").hide();
-    $(".win").fadeIn(5000);
+    $(".win").fadeIn(3000);
 });
 
 $(".Final").click(function() {
